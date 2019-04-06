@@ -1,0 +1,138 @@
+/* Css reset Code */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: #e3e4e8;
+}
+
+/* Header */
+
+header#header {
+  overflow: hidden;
+  background-color: #e3e4e8;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header .brand {
+  padding-top: 20px;
+}
+
+header .brand h1 {
+  font-size: 2em;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+#header .logo {
+  float: left;
+  text-align: center;
+}
+
+#header #header-img {
+  width: 30%;
+  height: 3%;
+  margin-top: 10px;
+}
+
+#header #nav-bar {
+  float: right;
+}
+
+/* Section */
+
+.container {
+  /* border: 1px solid black; */
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden;
+  margin-top: 70px;
+}
+
+.container form #email, #submit {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.container #features li {
+  list-style: none;
+  text-align: justify;
+  /* border: 1px solid red; */
+  padding: 10px 0;
+}
+
+.container #features li p {
+  padding: 10px 0;
+  font-weight: bolder;
+}
+
+.container #working {
+  /* border: 1px solid blue; */
+  margin-top: 40px;
+}
+
+input[type="email"] {
+  background-color: white;
+  border: none;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: yellow;
+  border: none;
+  padding: 10px;
+}
+
+#pricing {
+  /* border: 1px solid yellow; */
+  overflow: auto;
+  margin-top: 40px;
+}
+
+#pricing .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 9px;
+}
+
+/* Footer */
+
+footer {
+  /* border: 1px solid yellow; */
+  margin-top: 40px;
+  text-align: center;
+  background-color: #9b9b9b;
+}
+
+footer p {
+  /* border: 1px solid red; */
+  background-color: #9b9b9b;
+  font-size: 25px;
+}
+
+@media(max-width:1500px) {
+  .container #pricing {
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: auto;
+  }
+  .container #pricing .box {
+    float: none;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 70%;
+  }
+}
